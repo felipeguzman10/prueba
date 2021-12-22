@@ -1002,3 +1002,18 @@ Processing by ControladorController#index as HTML
 Completed 200 OK in 78ms (Views: 64.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/controlador" for 127.0.0.1 at 2021-12-22 13:10:05 -0300
+Processing by ControladorController#index as HTML
+  Rendering controlador/index.html.erb within layouts/application
+  Rendered controlador/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 485ms (Views: 478.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resultado?palabra=AA" for 127.0.0.1 at 2021-12-22 13:10:09 -0300
+Processing by ControladorController#resultado as HTML
+  Parameters: {"palabra"=>"AA"}
+  Rendering controlador/resultado.html.erb within layouts/application
+  Rendered controlador/resultado.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 28ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
